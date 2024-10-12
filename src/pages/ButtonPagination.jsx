@@ -7,7 +7,7 @@ import '../style.css';
 
 const ButtonPagination = () => {
   const [photos, setPhotos] = useState([]);
-  const [currentPage, setCurrentPage] = useState(2); // Boshlang'ich sahifa 2
+  const [currentPage, setCurrentPage] = useState(1); // Boshlang'ich sahifa 2
   const [totalPages, setTotalPages] = useState(10); // Sahifalar soni
   const [loading, setLoading] = useState(false);
 
